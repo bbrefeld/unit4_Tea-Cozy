@@ -10,9 +10,11 @@ body {
   text-align: center;
 }
 
-h2, h4 {
+#mission-section h2, #mission-section h4, #month-section h2, #month-section h4 {
   background-color: black;
+}
 
+h2, h4 {
   font-weight: bold;
 
   padding: 10px 0px 10px 0px;
@@ -107,6 +109,11 @@ main {
   width: 1000px;
 }
 
+#month-section h4 {
+  margin-bottom: 25px;
+  padding-bottom: 0px;
+}
+
 #month-section figure {
   width: 300px;
 }
@@ -121,4 +128,97 @@ main {
 
 #fig4 {
   margin-right: 25px;
+}
+
+#month-section figcaption {
+  margin: 10px 0px 25px 0px;
+
+  font-weight: bold;
+}
+
+/* Location Section Styling */
+#location-section {
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  flex-wrap: wrap;
+
+  background-image: url("../images/coffee.jpg");
+
+  height: 560px;
+  width: 1200px;
+}
+
+#location-section address {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: black;
+  opacity: 1;
+  z-index: 1;
+
+  height: 300px;
+  width: 300px;
+
+  margin: 0px 20px;
+
+  font-weight: bold;
+}
+
+#location-section h2 {
+  display: block;
+
+  height: 34px;
+
+  /*I had to calculate the top margin as I was unable to get it like the example without using divs purely for styling (which I challenged myself not to do). Please tell me if there is a better way. */
+  margin: 81px 0px 15px 0px;
+  padding: 0px;
+}
+
+#location-section address h3 {
+  font-size: 26px;
+}
+
+#location-section address span {
+  display: block;
+}
+
+
+/* contact section */
+#contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 200px;
+
+  font-weight: bold;
+}
+
+#contact-section h5 {
+  font-size: 19px;
+}
+
+#phone {
+  margin-bottom: 40px;
+}
+
+/* footer styling */
+footer {
+  position: relative;
+  top: 70px;
+
+  margin-top: 20px;
+
+  font-size: 19px;
+  text-align: left;
+
+  padding-bottom: 40px;
+}
+
+footer p {
+  padding-left: 20px;
 }
