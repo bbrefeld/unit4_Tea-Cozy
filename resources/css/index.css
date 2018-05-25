@@ -1,0 +1,124 @@
+/* OVerall Styling */
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+
+  text-align: center;
+}
+
+h2, h4 {
+  background-color: black;
+
+  font-weight: bold;
+
+  padding: 10px 0px 10px 0px;
+
+  width: 100%;
+}
+
+h2 {
+  font-size: 34px;
+}
+
+
+/* Header Styling */
+header {
+  border-bottom: 1px solid seashell;
+  background-color: black;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: fixed;
+  z-index: 1;
+  padding-left: 10px;
+
+  height: 69px;
+  width: 100%;
+}
+
+header img {
+  display: inline-block;
+
+  height: 50px;
+}
+
+header nav {
+  display: inline-block;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 400px;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+header nav ul li a {
+  color: seashell;
+}
+
+
+/* Main Styling */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  position: relative;
+  top: 70px;
+}
+
+#month-section, #location-section {
+  margin-top: 70px;
+}
+
+/* Mission Section Styling */
+#mission-section {
+  background-image: url("../images/jar_colourful.jpg");
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+
+  height: 700px;
+  width: 1200px;
+}
+
+/* Month Section Styling */
+#month-section {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  flex-wrap: wrap;
+
+  width: 1000px;
+}
+
+#month-section figure {
+  width: 300px;
+}
+
+#month-section figure img {
+  height: 200px;
+}
+
+#fig1, #fig3 {
+  margin: 0px 25px;
+}
+
+#fig4 {
+  margin-right: 25px;
+}
